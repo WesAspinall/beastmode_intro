@@ -1,9 +1,14 @@
 
 body{
-  margin-left: -50px;
-  margin-right: auto;
+  max-width:100%;
 }
 
+
+header {
+  max-width: 100%;
+  border: 1px solid #d9d9d9;
+  text-align: center;
+}
 /*wezzzleee*/
 h1 {
   font-family: 'Codystar', cursive;
@@ -45,8 +50,6 @@ h1, h2 {
 }
 
 #gallery {
-  margin: 0;
-  padding: 0;
   background: black;
 }
 
@@ -64,11 +67,14 @@ h1, h2 {
 
 #gallery li img {
   max-width: 100%;
+  border: 2px solid black;
 }
 
 #text {
   display: inline-block;
   margin-left: 60px;
+  max-width: 100%;
+  border: 2px solid black;
 }
 
 #text p {
