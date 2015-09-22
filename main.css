@@ -1,7 +1,7 @@
-
 body{
   width:100%;
-  margin-left: 20px;
+  margin: 0 0 0 0px;
+  float:left;
 }
 
 header {
@@ -10,6 +10,11 @@ header {
   text-align: center;
 }
 
+h1, h2{
+  color: black;
+  font-weight:normal;
+  
+  }
 
 /*WesleyAspinall*/
 h1 {
@@ -31,11 +36,6 @@ h1 {
   
     }
 
-h1, h2{
-  color: black;
-  font-weight:normal;
-  
-  }
 
 .twittericon, .fbicon {
     width: 30px;
@@ -43,6 +43,18 @@ h1, h2{
   display:inline-block;
   float: left;
   margin-right: 10px;
+}
+
+.socialmedia {
+  text-align: center;
+  margin-right: 40px;
+}
+.socialmedia ul {
+  list-style: none;
+}
+
+.socialmedia li {
+  display: inline-block;
 }
 
 div.websitecontent{
@@ -95,22 +107,17 @@ div.websitecontent{
   max-width: 100%;
 }
 
-.socialmedia {
-  text-align: center;
-  margin-right: 40px;
-}
-.socialmedia ul {
-  list-style: none;
-}
-
-.socialmedia li {
-  display: inline-block;
-}
 
 footer {
   font-family: 'Codystar', cursive;
   clear:both;
   text-align: center ;
   color: white;
+  font-size: .75em;
   background: black;
+}
+
+footer img {
+  border-radius: 20%;
+  max-width: 60px;
 }
