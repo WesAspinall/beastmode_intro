@@ -1,4 +1,3 @@
-
 body{
   width:100%;
   margin: 0 0 0 0px;
@@ -11,7 +10,7 @@ header {
   max-width: 100%;
   border: 10px solid white;
   text-align: center;
-  font-weight: bold;
+  font-weight: 900;
   background-color: #d9d9d9;
   margin: 10px 10px 10px 10px;
 }
@@ -22,7 +21,9 @@ h1, h2{
   
   }
 
-/*WesleyAspinall*/
+/*h1TITLE: WesleyAspinall*/
+
+
 h1 {
   font-family: 'Codystar', cursive;
   font-size: 5em;
@@ -32,15 +33,17 @@ h1 {
   margin: 0 0 0px 0px;
   }
 
-/*student@tiy*/
+
+
+
+  /*STUDENT @ ...*/
+
   h2 {
   font-family: 'Lato', sans-serif;
   font-size: 1.2em;
   margin: 0 0 0px 0px;
   padding-bottom: 10px;
-  
-  
-    }
+  }
 
 
 
@@ -66,12 +69,16 @@ h1 {
   display: inline-block;
 }
 
-div.websitecontent{
+
+
+
+/*BEGIN CONTENT BELOW THE HEADER*/
+
+div.websitecontent {
   max-width: 100%;
   text-align: left;
   margin-right: 0px;
 }
-
 
 
 
@@ -84,9 +91,11 @@ div.websitecontent{
   margin-left: -10px;
 }
 
+
 #gallery ul {
   list-style: none;
 }
+
 
 #gallery li {
   float: left;
@@ -100,6 +109,9 @@ div.websitecontent{
   border: 10px solid white;
 }
 
+
+/*TEXT SECTION BELOW IMG GALLERY*/
+
 #text {
   display: inline-block;
   float: left;
@@ -108,7 +120,6 @@ div.websitecontent{
   border: 10px solid white;
   text-align: center;
   background-color: #d9d9d9;
-
 }
 
 #text p {
@@ -124,6 +135,14 @@ div.websitecontent{
   max-width: 100%;
 }
 
+
+#text a:hover {
+  text-shadow: black 2px 5px;
+}
+
+
+
+/*FOOTER*/
 
 footer {
   font-family: 'Codystar', cursive;
