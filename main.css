@@ -1,0 +1,104 @@
+body{
+  margin-left: -50px;
+  margin-right: auto;
+}
+
+/*wezzzleee*/
+h1 {
+  font-family: 'Codystar', cursive;
+  font-size: 3em;
+  font-weight: normal;
+  text-align: center;
+  float: left;
+  width: 100%;
+  padding: 10px 0 0 0;
+  margin: 0 0 0px 10px;
+  }
+
+/*student@tiy*/
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  margin: 0 0 20px 0px;
+  font-weight: normal;
+  padding-bottom: 10px;
+  text-align: center;
+  
+}
+
+h1, h2 {
+  color: black;
+}
+
+.twittericon {
+    width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.fbicon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+
+}
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+#gallery ul {
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  color: #bdc3c7;
+  padding: 0;
+}
+
+#gallery li img {
+  max-width: 100%;
+}
+
+#text {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+#text p {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2em;
+  text-align: center;
+  text-shadow: #CCC 1px 0 10px;
+
+}
+#text p a {
+
+  text-decoration: none;
+  max-width: 75%;
+}
+
+section {
+  text-align: center;
+  margin-right: 40px;
+}
+section ul {
+  list-style: none;
+}
+
+section li {
+  display: inline-block;
+}
+
+footer {
+  font-family: 'Codystar', cursive;
+  clear:both;
+  text-align: center ;
+  color: white;
+  background: black;
+}
