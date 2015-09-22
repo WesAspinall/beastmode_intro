@@ -43,14 +43,14 @@ h1, h2 {
 }
 
 .fbicon {
-  width: 30px;
-  height: 30px;
   margin: 0 5px;
 
+  width: 30px;
+  height: 30px;
 }
 
 #gallery {
-  background: black;
+  text-align: center;
 }
 
 #gallery ul {
@@ -87,7 +87,7 @@ h1, h2 {
 #text p a {
 
   text-decoration: none;
-  max-width: 75%;
+  max-width: 100%;
 }
 
 section {
