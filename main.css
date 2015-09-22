@@ -1,13 +1,19 @@
+
 body{
   width:100%;
   margin: 0 0 0 0px;
   float:left;
+  background-image: url(https://waspnx.files.wordpress.com/2015/09/cropped-2013-01-18-21-13-12.jpg);
 }
+
 
 header {
   max-width: 100%;
-  border: 1px solid #d9d9d9;
+  border: 10px solid white;
   text-align: center;
+  font-weight: bold;
+  background-color: #d9d9d9;
+  margin: 10px 10px 10px 10px;
 }
 
 h1, h2{
@@ -19,7 +25,7 @@ h1, h2{
 /*WesleyAspinall*/
 h1 {
   font-family: 'Codystar', cursive;
-  font-size: 3em;
+  font-size: 5em;
   text-align: center;
   width: 100%;
   padding: 10px 0 0 0px;
@@ -37,8 +43,11 @@ h1 {
     }
 
 
+
+/*SOCIAL MEDIA ICONS*/
+
 .twittericon, .fbicon {
-    width: 30px;
+  width: 30px;
   height: 30px;
   display:inline-block;
   float: left;
@@ -63,6 +72,11 @@ div.websitecontent{
   margin-right: 0px;
 }
 
+
+
+
+/*PICTURES*/
+
 #gallery {
   text-align: center;
   width: 95%;
@@ -82,7 +96,7 @@ div.websitecontent{
 
 #gallery img {
   max-width: 100%;
-  border: 2px solid black;
+  border: 10px solid white;
 }
 
 #text {
@@ -90,8 +104,10 @@ div.websitecontent{
   float: left;
   margin-left: 0px;
   max-width: 100%;
-  border: 2px solid black;
+  border: 10px solid white;
   text-align: center;
+  background-color: #d9d9d9;
+
 }
 
 #text p {
