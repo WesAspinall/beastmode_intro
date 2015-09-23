@@ -12,7 +12,7 @@ body{
   background-repeat: no-repeat;
   background-position: 100% 100%;
   border: 1px solid black;
-  background-size: 25%;
+  background-size: 23%;
   
 }
 header {
@@ -38,7 +38,7 @@ h1, h2{
 
 
 h1 {
-  font-family: 'Codystar', cursive;
+  font-family: 'Press Start 2P', cursive;
   font-size: 5em;
   text-align: center;
   width: 100%;
