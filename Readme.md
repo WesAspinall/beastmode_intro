@@ -2,8 +2,8 @@
 
 #### this is an h4 tag
 
-*list item
-*list item
-*ook
+*list item*
+*list item*
+*ook*
 
 [this is a link](http://github.com)
